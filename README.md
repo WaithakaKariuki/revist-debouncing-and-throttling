@@ -1,4 +1,4 @@
-##Differences between debouncing and throttling.
+## Differences between debouncing and throttling.
 
 Debouncing is a technique in programming that helps prevent time-consuming tasks from being triggered so frequently that they slow down the performance of a web page. In simpler terms, it controls how often a function is called.
 
@@ -8,13 +8,13 @@ Throttling is a technique that is used to throttle or ignore the continuous occu
 
 Throttling is very commonly used on web pages which loads some data on scroll. It is used to send requests to the server after a particular interval of time if the user continues to scroll the web page. That is why you sometimes see the loading icon when you continuously scroll a web page like Instagram or Facebook.
 
-###Debouncing
+### Debouncing
 -
 - It is used to delay the execution of a function if it is called continuously.
 - It is used to handle events that fire quickly like user input.
 - It clears the previous timer on each function call and sets a new one every time.
 
-###Throttling
+### Throttling
 
 - Throttling sometimes also called throttle function is a practice used in websites. Throttling is used to call a function after every millisecond or a particular interval of time only the first click is executed immediately.
 
@@ -24,13 +24,13 @@ Throttling is very commonly used on web pages which loads some data on scroll. I
 - It is mainly used with the scroll or resize events to limit the frequency of function calls.
 - It maintains a constant limit between the invocation of two function calls.
 
-####Advantages of throttling function: 
+#### Advantages of throttling function: 
 
 - It prevents frequent calling of the function.
 - It makes the website faster and controls the rate at which a particular function is called.
 - Performance Optimization.
 - Improved Responsiveness.
 
-###Conclusion:
+### Conclusion:
 
 Debouncing and throttling are powerful techniques for managing user input and optimizing API requests in React applications. By incorporating these strategies with React hooks, we can create more efficient and responsive user interfaces. With the easy-to-understand example provided in this article, even beginners can grasp the concept of debouncing and throttling and apply them to their React projects.
