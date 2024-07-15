@@ -9,7 +9,7 @@ Throttling is a technique that is used to throttle or ignore the continuous occu
 Throttling is very commonly used on web pages which loads some data on scroll. It is used to send requests to the server after a particular interval of time if the user continues to scroll the web page. That is why you sometimes see the loading icon when you continuously scroll a web page like Instagram or Facebook.
 
 ### Debouncing
--
+
 - It is used to delay the execution of a function if it is called continuously.
 - It is used to handle events that fire quickly like user input.
 - It clears the previous timer on each function call and sets a new one every time.
