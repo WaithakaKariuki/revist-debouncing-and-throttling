@@ -35,6 +35,9 @@ Throttling is very commonly used on web pages which loads some data on scroll. I
 
 Debouncing and throttling are powerful techniques for managing user input and optimizing API requests in React applications. By incorporating these strategies with React hooks, we can create more efficient and responsive user interfaces. With the easy-to-understand example provided in this article, even beginners can grasp the concept of debouncing and throttling and apply them to their React projects.
 
+- Debouncing: Delays execution until after a pause; good for reducing function calls after rapid events.
+- Throttling: Limits execution to once per specified interval; good for ensuring a function runs at regular intervals.
+
 ### Live Server
 
 Install the Live Server Extension to run the two examples given in a browser.
